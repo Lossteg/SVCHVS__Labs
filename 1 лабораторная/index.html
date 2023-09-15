@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roby</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div id="page__wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div id="header__body">
+                    <div id="agency__header__information">
+                        <p>A creative agency based in Helsinki</p>
+                        <p id="e-mail">hello@robi.com</p>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav id="menu">
+                        <ul id="menu__list">
+                            <li class="menu__link">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">News</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">Cart (<span id="cart__items__amount">0</span>)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="main__wrapper">
+                <section id="main__header">
+                    <div id="centered__logo">
+                        <img src="images/svg/logo.svg" alt="company logo">
+                    </div>
+                    <div id="image">
+                        <img src="images/jpg/header-image.jpg" alt="Header image">
+                    </div>
+                    <div id="text">
+                        <h1>"We believe that</h1>
+                        <p>The power of design</p>
+                        <p>Helps</p>
+                        <p>businesses."</p>
+                        <div class="circled__button">work <br>with us</div>
+                    </div>
+                </section>
+                <article id="agency__main__information">
+                    <section id="partners">
+                        <h1>We partner with <span>forward-thinking</span> startups.</h1>
+                        <img src="images/svg/partners.svg" alt="partners">
+                    </section>
+                    <section id="accomplishments">
+                        <h1>The perfect<br><span>agency for your brand</span></h1>
+                        <div id="container">
+                            <div id="agency__statement">
+                                <p>We love what we do and create partnerships with our clients to ensure their digital transformation is positioned for long-term success.</p>
+                                <p>We believe that the human dimensions essential to start any successful project and that this is where splendid emotional relationships between the company and people are born.</p>
+                            </div>
+                            <div id="awards__table">
+                                <div class="awards different__awards">
+                                    <div class="header__awards__list">
+                                        <p>Awards</p>
+                                        <p>14</p>
+                                    </div>
+                                    <div class="block-item">
+                                        <span class="line"></span>
+                                    </div>
+                                    <div class="awards__list">
+                                        <ul>
+                                            <li>Site of the Day</li>
+                                            <li>Developer Award</li>
+                                            <li>Honorable Mention</li>
+                                            <li>Mobile Exelence</li>
+                                        </ul>
+                                        <ul>
+                                            <li>3</li>
+                                            <li>1</li>
+                                            <li>7</li>
+                                            <li>3</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="awards css__design__awards">
+                                    <div class="header__awards__list">
+                                        <p>CSS design awards</p>
+                                        <p>34</p>
+                                    </div>
+                                    <div class="block-item">
+                                        <span class="line"></span>
+                                    </div>
+                                    <div class="awards__list">
+                                        <ul>
+                                            <li>UX Design Award</li>
+                                            <li>UI Design Award</li>
+                                            <li>Innovation Design Award</li>
+                                            <li>Website of the Day</li>
+                                        </ul>
+                                        <ul>
+                                            <li>10</li>
+                                            <li>4</li>
+                                            <li>7</li>
+                                            <li>13</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="selected__work">
+                        <div id="selected__work__header">
+                            <h1>Selected</h1>
+                            <p>work</p>
+                        </div>
+                        <div class="blocks__wrapper">
+                            <div id="left__side__block">
+                                <figure class="work__block">
+                                    <img src="images/jpg/conference.jpg" alt="A blue bike on the gray background">
+                                    <p>Conference</p>
+                                    <p>Art Direction, Design</p>
+                                </figure>
+                                <figure class="work__block">
+                                    <img src="images/jpg/ivor-application.jpg" alt="an African-American men model">
+                                    <p>Ivor application</p>
+                                    <p>User Interface</p>
+                                </figure>
+                                <figure class="work__block">
+                                    <img src="images/jpg/flying-to-the-moon.jpg" alt="Minimalistic architecture">
+                                    <p>Flying to the moon</p>
+                                    <p>User Experiences</p>
+                                </figure>
+                            </div>
+                            <div id="right__side__block">
+                                <figure class="work__block">
+                                    <img src="images/jpg/magazine.jpg" alt="Blured korean woman model holding a bottle of a face tonic from natural cosmetic in focus">
+                                    <p>Magazine</p>
+                                    <p>Logo, User Interface</p>
+                                </figure>
+                                <figure class="work__block">
+                                    <img src="images/jpg/black-apple-watch.jpg" alt="Half-closed macbook on a gray background">
+                                    <p>Black apple watch</p>
+                                    <p>Logo, User Interface</p>
+                                </figure>
+                                <figure class="work__block">
+                                    <img src="images/jpg/dharma-webfont.jpg" alt="A part of a notebook keyboard on a black background">
+                                    <p>Dharma webfont</p>
+                                    <p>Branding, Web Design</p>
+                                </figure>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="improve__your__brand">
+                        <h1>Improve <span>your brand</span> with an awesome site.</h1>
+                        <img src="images/svg/tablet-.svg" alt="Current site opened in a tablet">
+                        <div id="website__benefits">
+                            <div>
+                                <h2>Comprehensive <span>brand</span></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            </div>
+                            <div>
+                                <h2>Web <span>presence</span></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="peoples__opinions">
+                        <div id="peoples__opinions__header">
+                            <h1>What</h1>
+                            <p>they</p>
+                            <h1>think</h1>
+                        </div>
+                        <div class="slider">
+                            <figure class="slider__item">
+                                <p>"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with."</p>
+                                <img src="images/jpg/Paige_Brennan.jpg" alt="Paige Brennan">
+                                <p>Paige Brennan</p>
+                                <p>Webflow Founder</p>
+                            </figure>
+                            <figure class="slider__item">
+                                <p>"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with."</p>
+                                <img src="images/jpg/Catlin-Ward.jpg" alt="Catlin Ward">
+                                <p>Caitlin Ward</p>
+                                <p>Webflow Founder</p>
+                            </figure>
+                            <figure class="slider__item">
+                                <p>"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."</p>
+                                <img src="images/jpg/Matthew-Webster.jpg" alt="Matthew Webster">
+                                <p>Matthew Webster</p>
+                                <p>Webflow Founder</p>
+                            </figure>
+                        </div>
+                    </section>
+                    <section id="our__team__skills">
+                        <div id="skills__block">
+                            <div id="skills__block__header">
+                                <h1>Our</h1>
+                                <p>team</p>
+                                <h1>skills</h1>
+                            </div>
+                            <div class="skills__row row__1">
+                                <p>Graphic design</p>
+                                <p>80%</p>
+                                <div class="block-item">
+                                    <span class="line"></span>
+                                </div>
+                            </div>
+                            <div class="skills__row row__2">
+                                <p>Lead generation</p>
+                                <p>41%</p>
+                                <div class="block-item">
+                                    <span class="line"></span>
+                                </div>
+                            </div>
+                            <div class="skills__row  row__3">
+                                <p>Photoshop</p>
+                                <p>70%</p>
+                                <div class="block-item">
+                                    <span class="line"></span>
+                                </div>
+                            </div>
+                            <div class="skills__row  row__4">
+                                <p>Illustration</p>
+                                <p>100%</p>
+                                <div class="block-item">
+                                    <span class="line"></span>
+                                </div>
+                            </div>
+                            <p id="post__scriptum">* Over 8 years creating templates on Marketplace.</p>
+                        </div>
+                        <img src="images/jpg/our-team.jpg" alt="Roby team">
+                    </section>
+                    <section id="fun__facts">
+                        <div id="fun__facts__header">
+                            <h1>Fun</h1>
+                            <p>facts</p>
+                        </div>
+                        <div id="fun__facts__container">
+                            <div class="facts__block block__1">
+                                <img src="images/svg/medal.svg" alt="medal">
+                                <div class="facts__block__text">
+                                    <p>8</p>
+                                    <p>Years on market</p>
+                                </div>
+                            </div>
+                            <div class="facts__block block__2">
+                                <img src="images/svg/brackets.svg" alt="brackets">
+                                <div class="facts__block__text">
+                                    <p>110+</p>
+                                    <p>Project done</p>
+                                </div>
+                            </div>
+                            <div class="facts__block block__3">
+                                <div class="facts__block__text">
+                                    <p>15</p>
+                                    <p>Hero's member</p>
+                                </div>
+                            </div>
+                            <div class="facts__block block__4">
+                                <img src="images/svg/mug.svg" alt="mug">
+                                <div class="facts__block__text">
+                                    <p>100+</p>
+                                    <p>Cups of coffee</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+                <article id="blog">
+                    <header id="blog__header">
+                        <h1>Our <span>blog</span></h1>
+                        <div class="circled__button">View all<br> post</div>
+                    </header>
+                    <div class="slider__blog">
+                        <figure class="blog__post post__1">
+                            <img src="images/jpg/blog-image-1.jpg" alt="moodboard">
+                            <div class="topic">Marketing</div>
+                            <p>Curating a workplace that inspires all of us</p>
+                            <p>February 3, 2021</p>
+                        </figure>
+                        <figure class="blog__post post__2">
+                            <img src="images/jpg/blog-image-2.jpg" alt="a flower in a cup reflected in a circular mirror">
+                            <div class="topic">Design</div>
+                            <p>Designers who changed the web with webflow</p>
+                            <p>February 25, 2021</p>
+                        </figure>
+                        <figure class="blog__post post__3">
+                            <img src="images/jpg/blog-image-3.jpg" alt="a beige room in minimalistic design ">
+                            <div class="topic">Code</div>
+                            <p>Communication between studio departments</p>
+                            <p>March 9, 2021</p>
+                        </figure>
+                    </div>
+                </article>
+                <section id="lets__talk">   
+                    <div id="lets__talk__header__wrapper">
+                        <div id="lets__talk__header">
+                            <h1>Let's</h1>
+                            <p>talk</p>
+                        </div>
+                        <p id="contact__us">Feel free to contact us</p>
+                    </div>
+                    <div class="circled__button">View on designer</div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div id="footer__wrapper">
+                <div id="footer__header">
+                    <img src="images/svg/logo-small.svg" alt="small Roby logo">
+                    <div id="images-links">
+                        <a href="#"><img src="images/svg/facebook-logo.svg" alt="Facebook logo"></a>
+                        <a href="#"><img src="images/svg/instagram-logo.svg" alt="Instagram logo"></a>
+                        <a href="#"><img src="images/svg/twitter-logo.svg" alt="Twitter logo"></a>
+                        <a href="#"><img src="images/svg/linkedin-logo.svg" alt="LinkedIn logo"></a>
+                        <a href="#"><img src="images/svg/browser-logo.svg" alt="Browser logo"></a>
+                    </div>
+                </div>
+                <div id="footer__main">
+                    <div id="address" class="footer__column">
+                        <p>Address</p>
+                        <p>14 New South Head Rd, Triple Bay 3148 London, UK</p>
+                        <div id="button">Find on map</div>
+                    </div>
+                    <div id="sitemap" class="footer__column">
+                        <p>Sitemap</p>
+                        <ul id="sitemap__list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Style Guide</a></li>
+                            <li><a href="#">Image Licensing</a></li>
+                        </ul>
+                    </div>
+                    <div id="contact" class="footer__column">
+                        <p>Contact</p>
+                        <p>P: 3740 213 301</p>
+                        <p>E: contact@robi.com</p>
+                    </div>
+                </div>
+                <p>© This is a Deni Bozo template powered by Webflow</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
