@@ -672,6 +672,16 @@ body {
     margin-right: 120px;
     color: #000;
     background-color: #fff;
+    transition: all 0.2s;
+}
+#lets__talk .circled__button:hover {
+    transition: all 0.4s ease 0s;
+    transform: scale(1.09);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+    font-weight: 700;
+}
+#lets__talk .circled__button:active {
+    transform: scale(0.9);
 }
 #lets__talk__header {
     margin-left: 120px;
