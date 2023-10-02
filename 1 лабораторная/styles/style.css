@@ -123,6 +123,25 @@ body {
     text-transform: uppercase;
     color: #fff;
     border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.circled__button:hover {
+    transition: all 0.4s ease 0s;
+    background-color: #8F8F8F;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.circled__button:active {
+    transform: scale(0.9);
+}
+
+#button:hover {
+    transition: all 0.4s ease 0s;;
+    background-color: #8F8F8F;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#button:active {
+    transform: scale(0.9);
 }
 
 #partners {
@@ -586,6 +605,7 @@ body {
 #blog__header {
     margin-bottom: 50px;
     display: flex;
+    flex-shrink: unset;
     align-items: center;
     justify-content: space-between;
 }
@@ -758,6 +778,8 @@ body {
     border-radius: 30px 30px 30px 30px;
     color: white;
     background-color: #000;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 #footer__wrapper p:last-child {
     font-size: 17px;
