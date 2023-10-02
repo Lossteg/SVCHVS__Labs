@@ -690,8 +690,18 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+#images-links {
+    display: flex;
+}
 #images-links a{
     margin: 0 13px;
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+.social__media__link:hover {
+    height: 20px;
+    width: 20px;
 }
 #footer__main {
     margin-bottom: 26px;
@@ -714,6 +724,10 @@ body {
     margin-bottom: 5px;
     font-size: 18px;
     line-height: 23px;
+}
+#sitemap__list li:hover {
+    font-weight: 700;
+    text-decoration: underline;
 }
 #contact {
     font-size: 18px;
