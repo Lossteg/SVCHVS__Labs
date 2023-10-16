@@ -7,6 +7,15 @@ body {
     min-height: 100%;
     overflow: hidden;
 }
+.play__btn {
+    position: relative;
+    top: 230px;
+    left: 0px;
+}
+.image {
+    width: 200px;
+    height: 200px;
+}
 
 .theme {
     display: flex;

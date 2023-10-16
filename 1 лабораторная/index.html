@@ -6,7 +6,7 @@
     <title>Roby</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
-    <!-- <link rel="stylesheet" href="styles/theme-dark.css"> -->
+    <link rel="shortcut icon" href="#">
     <link rel="stylesheet" title="theme" href="#">
     <script defer src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script defer src="js/slick.min.js"></script>
@@ -61,8 +61,14 @@
                         <img src="images/svg/logo.svg" alt="company logo">
                     </div>
                     <div id="image">
-                        <img src="images/jpg/header-image.jpg" alt="Header image">
+                        <img class="header-image" src="images/jpg/header-image.jpg" alt="Header image">
                     </div>
+                    <div class="play__btn__wrapper">
+                        <div class="play__btn">
+                            <img class="image" src="/images/img/play-button.png" alt="play button">
+                        </div>
+                    </div>
+                    <audio class="audio" src="audio/Catbycat_-_Maxwell_the_Cat_Theme_75819683.mp3"></audio>
                     <div id="text">
                         <h1 data-lang="tagline-1">"We believe that</h1>
                         <p data-lang="tagline-2">The power of design</p>
@@ -384,6 +390,6 @@
     </div>
     <script src="js/lang.js"></script>
     <script src="js/darkmode.js"></script>
-
+    <script src="js/player.js"></script>
 </body>
 </html>
