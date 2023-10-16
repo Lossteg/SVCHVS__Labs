@@ -8,6 +8,19 @@ body {
     overflow: hidden;
 }
 
+.theme {
+    display: flex;
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+
 .header {
     /* position: fixed; */
     width: 100%;
@@ -41,12 +54,15 @@ body {
     font-size: 18px;
     z-index: 13;
 }
-#agency__header__information #e-mail {
+#e-mail {
     color: #000;
     margin-top: 6px;
 }
 .header__btn_active {
     background-color: green;
+}
+.header__btn:hover {
+    background-color: lightgreen;
 }
 #menu__list {
     display: flex;
@@ -242,7 +258,7 @@ body {
     margin-top: 20px;
     margin-bottom: 14.73px;
     width: 383px;
-    border: thin solid black;
+    border: thin solid #000;
 }
 
 #selected__work {
