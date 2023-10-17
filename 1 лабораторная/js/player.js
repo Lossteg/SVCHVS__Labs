@@ -6,7 +6,7 @@ const imgMain = document.querySelector(".header-image");
 function toggleAudio() {
     if (audio.paused) {
         audio.play(); 
-        audio.volume = 0.15;
+        audio.volume = 0.35;
         imgSrc.src = "/images/img/pause-button.png"; 
         imgMain.src = "/images/gif/maxwell.gif"
     } else {
