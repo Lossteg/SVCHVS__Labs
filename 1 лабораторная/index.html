@@ -6,18 +6,28 @@
     <title>Roby</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" title="theme" href="#">
     <script defer src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script defer src="js/slick.min.js"></script>
     <script defer src="js/script.js"></script>
 </head>
-<body>
+<body> 
     <div id="page__wrapper">
         <header class="header">
             <div class="header__container">
                 <div id="header__body">
                     <div id="agency__header__information">
-                        <p>A creative agency based in Helsinki</p>
+                        <p data-lang="agency_description">A creative agency based in Helsinki</p>
                         <p id="e-mail">hello@robi.com</p>
+                    </div>
+                    <div class="theme">
+                        <svg class="changeTheme" data-theme="light" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;"> <path d="M20 30C22.6522 30 25.1957 28.9464 27.0711 27.0711C28.9464 25.1957 30 22.6522 30 20C30 17.3478 28.9464 14.8043 27.0711 12.9289C25.1957 11.0536 22.6522 10 20 10C17.3478 10 14.8043 11.0536 12.9289 12.9289C11.0536 14.8043 10 17.3478 10 20C10 22.6522 11.0536 25.1957 12.9289 27.0711C14.8043 28.9464 17.3478 30 20 30V30ZM20 0C20.3315 0 20.6495 0.131696 20.8839 0.366117C21.1183 0.600537 21.25 0.918479 21.25 1.25V6.25C21.25 6.58152 21.1183 6.89946 20.8839 7.13388C20.6495 7.3683 20.3315 7.5 20 7.5C19.6685 7.5 19.3505 7.3683 19.1161 7.13388C18.8817 6.89946 18.75 6.58152 18.75 6.25V1.25C18.75 0.918479 18.8817 0.600537 19.1161 0.366117C19.3505 0.131696 19.6685 0 20 0V0ZM20 32.5C20.3315 32.5 20.6495 32.6317 20.8839 32.8661C21.1183 33.1005 21.25 33.4185 21.25 33.75V38.75C21.25 39.0815 21.1183 39.3995 20.8839 39.6339C20.6495 39.8683 20.3315 40 20 40C19.6685 40 19.3505 39.8683 19.1161 39.6339C18.8817 39.3995 18.75 39.0815 18.75 38.75V33.75C18.75 33.4185 18.8817 33.1005 19.1161 32.8661C19.3505 32.6317 19.6685 32.5 20 32.5V32.5ZM40 20C40 20.3315 39.8683 20.6495 39.6339 20.8839C39.3995 21.1183 39.0815 21.25 38.75 21.25H33.75C33.4185 21.25 33.1005 21.1183 32.8661 20.8839C32.6317 20.6495 32.5 20.3315 32.5 20C32.5 19.6685 32.6317 19.3505 32.8661 19.1161C33.1005 18.8817 33.4185 18.75 33.75 18.75H38.75C39.0815 18.75 39.3995 18.8817 39.6339 19.1161C39.8683 19.3505 40 19.6685 40 20ZM7.5 20C7.5 20.3315 7.3683 20.6495 7.13388 20.8839C6.89946 21.1183 6.58152 21.25 6.25 21.25H1.25C0.918479 21.25 0.600537 21.1183 0.366117 20.8839C0.131696 20.6495 0 20.3315 0 20C0 19.6685 0.131696 19.3505 0.366117 19.1161C0.600537 18.8817 0.918479 18.75 1.25 18.75H6.25C6.58152 18.75 6.89946 18.8817 7.13388 19.1161C7.3683 19.3505 7.5 19.6685 7.5 20ZM34.1425 5.8575C34.3768 6.09191 34.5085 6.40979 34.5085 6.74125C34.5085 7.07271 34.3768 7.39059 34.1425 7.625L30.6075 11.1625C30.4913 11.2786 30.3533 11.3706 30.2016 11.4333C30.0498 11.4961 29.8871 11.5283 29.7229 11.5282C29.3912 11.528 29.0731 11.396 28.8387 11.1612C28.7227 11.045 28.6307 10.9071 28.5679 10.7553C28.5052 10.6035 28.4729 10.4409 28.4731 10.2766C28.4733 9.94491 28.6053 9.62689 28.84 9.3925L32.375 5.8575C32.6094 5.62316 32.9273 5.49152 33.2588 5.49152C33.5902 5.49152 33.9081 5.62316 34.1425 5.8575V5.8575ZM11.16 28.84C11.3943 29.0744 11.526 29.3923 11.526 29.7237C11.526 30.0552 11.3943 30.3731 11.16 30.6075L7.625 34.1425C7.38925 34.3702 7.07349 34.4962 6.74575 34.4933C6.418 34.4905 6.10449 34.359 5.87273 34.1273C5.64097 33.8955 5.50951 33.582 5.50666 33.2543C5.50381 32.9265 5.6298 32.6108 5.8575 32.375L9.3925 28.84C9.62691 28.6057 9.94479 28.474 10.2762 28.474C10.6077 28.474 10.9256 28.6057 11.16 28.84V28.84ZM34.1425 34.1425C33.9081 34.3768 33.5902 34.5085 33.2588 34.5085C32.9273 34.5085 32.6094 34.3768 32.375 34.1425L28.84 30.6075C28.6123 30.3717 28.4863 30.056 28.4892 29.7282C28.492 29.4005 28.6235 29.087 28.8552 28.8552C29.087 28.6235 29.4005 28.492 29.7282 28.4892C30.056 28.4863 30.3717 28.6123 30.6075 28.84L34.1425 32.375C34.3768 32.6094 34.5085 32.9273 34.5085 33.2588C34.5085 33.5902 34.3768 33.9081 34.1425 34.1425ZM11.16 11.1625C10.9256 11.3968 10.6077 11.5285 10.2762 11.5285C9.94479 11.5285 9.62691 11.3968 9.3925 11.1625L5.8575 7.625C5.73811 7.50969 5.64288 7.37176 5.57737 7.21926C5.51186 7.06675 5.47738 6.90273 5.47594 6.73675C5.47449 6.57078 5.50612 6.40618 5.56897 6.25256C5.63182 6.09894 5.72464 5.95937 5.84201 5.84201C5.95937 5.72464 6.09894 5.63182 6.25256 5.56897C6.40618 5.50612 6.57078 5.47449 6.73675 5.47594C6.90273 5.47738 7.06675 5.51186 7.21926 5.57737C7.37176 5.64288 7.50969 5.73811 7.625 5.8575L11.16 9.3925C11.2764 9.50861 11.3688 9.64655 11.4318 9.79842C11.4948 9.95028 11.5272 10.1131 11.5272 10.2775C11.5272 10.4419 11.4948 10.6047 11.4318 10.7566C11.3688 10.9084 11.2764 11.0464 11.16 11.1625V11.1625Z" fill="#ffffff"></path></svg>
+                        <svg class="changeTheme" data-theme="dark" width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block;"> <path d="M15 0.695136C15.244 0.991667 15.3935 1.35457 15.4292 1.73694C15.4648 2.11932 15.385 2.5036 15.2 2.84014C13.7546 5.49382 12.9998 8.46837 13.005 11.4901C13.005 21.5426 21.2 29.6826 31.3 29.6826C32.6175 29.6826 33.9 29.5451 35.1325 29.2826C35.5103 29.2008 35.9039 29.2321 36.264 29.3726C36.6241 29.5131 36.9349 29.7566 37.1575 30.0726C37.3925 30.4013 37.5123 30.7983 37.4983 31.2021C37.4842 31.6058 37.3372 31.9936 37.08 32.3051C35.1192 34.7137 32.6456 36.6544 29.8396 37.9856C27.0335 39.3168 23.9658 40.0051 20.86 40.0001C9.335 40.0001 0 30.7151 0 19.2751C0 10.6651 5.285 3.28014 12.81 0.150136C13.1848 -0.00828447 13.601 -0.0407995 13.9959 0.057475C14.3908 0.15575 14.7431 0.379507 15 0.695136V0.695136Z" fill="#222222"></path></svg>
+                    </div>
+                    <div class="multilingual">
+                        <button class="header__btn" data-btn="eng">ENG</button>
+				        <button class="header__btn" data-btn="ru">RU</button>
                     </div>
                     <div class="header__burger">
                         <span></span>
@@ -25,19 +35,19 @@
                     <nav id="menu">
                         <ul id="menu__list">
                             <li class="menu__link">
-                                <a href="#">Home</a>
+                                <a href="#" data-lang="menu_link-1">Home</a>
                             </li>
                             <li class="menu__link">
-                                <a href="#">About</a>
+                                <a href="#" data-lang="menu_link-2">About</a>
                             </li>
                             <li class="menu__link">
-                                <a href="#">News</a>
+                                <a href="#" data-lang="menu_link-3">News</a>
                             </li>
                             <li class="menu__link">
-                                <a href="#">Contact</a>
+                                <a href="#" data-lang="menu_link-4">Contact</a>
                             </li>
                             <li class="menu__link">
-                                <a href="#">Cart (<span id="cart__items__amount">0</span>)</a>
+                                <a href="#" data-lang="menu_link-5">Cart(0)</a>
                             </li>
                         </ul>
                     </nav>
@@ -51,32 +61,45 @@
                         <img src="images/svg/logo.svg" alt="company logo">
                     </div>
                     <div id="image">
-                        <img src="images/jpg/header-image.jpg" alt="Header image">
+                        <img class="header-image" src="images/jpg/header-image.jpg" alt="Header image">
                     </div>
+                    <div class="play__btn__wrapper">
+                        <div class="play__btn">
+                            <img class="image" src="/images/img/play-button.png" alt="play button">
+                        </div>
+                    </div>
+                    <audio class="audio" src="audio/Catbycat_-_Maxwell_the_Cat_Theme_75819683.mp3"></audio>
                     <div id="text">
-                        <h1>"We believe that</h1>
-                        <p>The power of design</p>
-                        <p>Helps</p>
-                        <p>businesses."</p>
-                        <div class="circled__button">work <br>with us</div>
+                        <h1 data-lang="tagline-1">"We believe that</h1>
+                        <p data-lang="tagline-2">The power of design</p>
+                        <p data-lang="tagline-3">Helps</p>
+                        <p data-lang="tagline-4">businesses."</p>
+                        <div class="circled__button" data-lang="collab-btn">work <br>with us</div>
                     </div>
                 </section>
                 <article id="agency__main__information">
                     <section id="partners">
-                        <h1>We partner with <span>forward-thinking</span> startups.</h1>
+                        <div class="partners__header">
+                            <h1 data-lang="partners">We partner with</h1>
+                            <span data-lang="partners-span">forward-thinking</span>
+                            <p data-lang="partners-1">startups.</p>
+                        </div>
                         <img src="images/svg/partners.svg" alt="partners">
                     </section>
                     <section id="accomplishments">
-                        <h1>The perfect<br><span>agency for your brand</span></h1>
+                        <div class="accomplishments__header">
+                            <h1 data-lang="accompl-tagline">The perfect</h1>
+                            <span data-lang="accompl-tagline-span">agency for your brand</span>
+                        </div>
                         <div id="container">
                             <div id="agency__statement">
-                                <p>We love what we do and create partnerships with our clients to ensure their digital transformation is positioned for long-term success.</p>
-                                <p>We believe that the human dimensions essential to start any successful project and that this is where splendid emotional relationships between the company and people are born.</p>
+                                <p data-lang="statement-1">We love what we do and create partnerships with our clients to ensure their digital transformation is positioned for long-term success.</p>
+                                <p data-lang="statement-2">We believe that the human dimensions essential to start any successful project and that this is where splendid emotional relationships between the company and people are born.</p>
                             </div>
                             <div id="awards__table">
                                 <div class="awards different__awards">
                                     <div class="header__awards__list">
-                                        <p>Awards</p>
+                                        <p data-lang="awards">Awards</p>
                                         <p>14</p>
                                     </div>
                                     <div class="block-item">
@@ -84,10 +107,10 @@
                                     </div>
                                     <div class="awards__list">
                                         <ul>
-                                            <li>Site of the Day</li>
-                                            <li>Developer Award</li>
-                                            <li>Honorable Mention</li>
-                                            <li>Mobile Exelence</li>
+                                            <li data-lang="award-1">Site of the Day</li>
+                                            <li data-lang="award-2">Developer Award</li>
+                                            <li data-lang="award-3">Honorable Mention</li>
+                                            <li data-lang="award-4">Mobile Exellence</li>
                                         </ul>
                                         <ul>
                                             <li>3</li>
@@ -99,7 +122,7 @@
                                 </div>
                                 <div class="awards css__design__awards">
                                     <div class="header__awards__list">
-                                        <p>CSS design awards</p>
+                                        <p data-lang="CSS-awards">CSS design awards</p>
                                         <p>34</p>
                                     </div>
                                     <div class="block-item">
@@ -107,10 +130,10 @@
                                     </div>
                                     <div class="awards__list">
                                         <ul>
-                                            <li>UX Design Award</li>
-                                            <li>UI Design Award</li>
-                                            <li>Innovation Design Award</li>
-                                            <li>Website of the Day</li>
+                                            <li data-lang="CSS-award-1">UX Design Award</li>
+                                            <li data-lang="CSS-award-2">UI Design Award</li>
+                                            <li data-lang="CSS-award-3">Innovation Design Award</li>
+                                            <li data-lang="CSS-award-4">Website of the Day</li>
                                         </ul>
                                         <ul>
                                             <li>10</li>
@@ -125,157 +148,161 @@
                     </section>
                     <section id="selected__work">
                         <div id="selected__work__header">
-                            <h1>Selected</h1>
-                            <p>work</p>
+                            <h1 data-lang="selectedWork-tagline-1">Selected</h1>
+                            <p data-lang="selectedWork-tagline-2">work</p>
                         </div>
                         <div class="blocks__wrapper">
                             <div id="left__side__block">
                                 <figure class="work__block">
                                     <img src="images/jpg/conference.jpg" alt="A blue bike on the gray background">
-                                    <p>Conference</p>
-                                    <p>Art Direction, Design</p>
+                                    <p data-lang="selectedWork-1">Conference</p>
+                                    <p data-lang="selectedWork-1_1">Art Direction, Design</p>
                                 </figure>
                                 <figure class="work__block">
                                     <img src="images/jpg/ivor-application.jpg" alt="an African-American men model">
-                                    <p>Ivor application</p>
-                                    <p>User Interface</p>
+                                    <p data-lang="selectedWork-2">Ivor application</p>
+                                    <p data-lang="selectedWork-2_1">User Interface</p>
                                 </figure>
                                 <figure class="work__block">
                                     <img src="images/jpg/flying-to-the-moon.jpg" alt="Minimalistic architecture">
-                                    <p>Flying to the moon</p>
-                                    <p>User Experiences</p>
+                                    <p data-lang="selectedWork-3">Flying to the moon</p>
+                                    <p data-lang="selectedWork-3_1">User Experiences</p>
                                 </figure>
                             </div>
                             <div id="right__side__block">
                                 <figure class="work__block">
                                     <img src="images/jpg/magazine.jpg" alt="Blured korean woman model holding a bottle of a face tonic from natural cosmetic in focus">
-                                    <p>Magazine</p>
-                                    <p>Logo, User Interface</p>
+                                    <p data-lang="selectedWork-4">Magazine</p>
+                                    <p data-lang="selectedWork-4_1">Logo, User Interface</p>
                                 </figure>
                                 <figure class="work__block">
                                     <img src="images/jpg/black-apple-watch.jpg" alt="Half-closed macbook on a gray background">
-                                    <p>Black apple watch</p>
-                                    <p>Logo, User Interface</p>
+                                    <p data-lang="selectedWork-5">Black apple watch</p>
+                                    <p data-lang="selectedWork-4_1">Logo, User Interface</p>
                                 </figure>
                                 <figure class="work__block">
                                     <img src="images/jpg/dharma-webfont.jpg" alt="A part of a notebook keyboard on a black background">
-                                    <p>Dharma webfont</p>
-                                    <p>Branding, Web Design</p>
+                                    <p data-lang="selectedWork-6">Dharma webfont</p>
+                                    <p data-lang="selectedWork-6_1">Branding, Web Design</p>
                                 </figure>
                             </div>
                         </div>
                     </section>
                     <section id="improve__your__brand">
-                        <h1>Improve <span>your brand</span> with an awesome site.</h1>
+                        <div class="IYB__header">
+                            <h1 data-lang="improveBrand-tagline">Improve</h1>
+                            <span data-lang="IYB-tagline-span">your brand</span>
+                            <p class="ptagline" data-lang="improveBrand-tagline-1">with an awesome site.</p>
+                        </div>
                         <img src="images/svg/tablet-.svg" alt="Current site opened in a tablet">
                         <div id="website__benefits">
                             <div>
-                                <h2>Comprehensive <span>brand</span></h2>
+                                <h2 data-lang="benefit-1">Comprehensive <span>brand</span></h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                             </div>
                             <div>
-                                <h2>Web <span>presence</span></h2>
+                                <h2 data-lang="benefit-2">Web <span>presence</span></h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                             </div>
                         </div>
                     </section>
                     <section id="peoples__opinions">
                         <div id="peoples__opinions__header">
-                            <h1>What</h1>
-                            <p>they</p>
-                            <h1>think</h1>
+                            <h1 data-lang="opinions-tagline-1">What</h1>
+                            <p data-lang="opinions-tagline-2">they</p>
+                            <h1 data-lang="opinions-tagline-3">think</h1>
                         </div>
                         <div class="slider">
                             <figure class="slider__item">
-                                <p>"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with."</p>
+                                <p data-lang="opinion">"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with."</p>
                                 <img src="images/jpg/Paige_Brennan.jpg" alt="Paige Brennan">
-                                <p>Paige Brennan</p>
-                                <p>Webflow Founder</p>
+                                <p data-lang="name-1">Paige Brennan</p>
+                                <p data-lang="occupation">Webflow Founder</p>
                             </figure>
                             <figure class="slider__item">
-                                <p>"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with."</p>
+                                <p data-lang="opinion-1">"The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with."</p>
                                 <img src="images/jpg/Catlin-Ward.jpg" alt="Catlin Ward">
-                                <p>Caitlin Ward</p>
-                                <p>Webflow Founder</p>
+                                <p data-lang="name-2">Caitlin Ward</p>
+                                <p data-lang="occupation-1">Webflow Founder</p>
                             </figure>
                             <figure class="slider__item">
-                                <p>"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."</p>
+                                <p data-lang="opinion-2">"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."</p>
                                 <img src="images/jpg/Matthew-Webster.jpg" alt="Matthew Webster">
-                                <p>Matthew Webster</p>
-                                <p>Webflow Founder</p>
+                                <p data-lang="name-3">Matthew Webster</p>
+                                <p data-lang="occupation-2">Webflow Founder</p>
                             </figure>
                         </div>
                     </section>
                     <section id="our__team__skills">
                         <div id="skills__block">
                             <div id="skills__block__header">
-                                <h1>Our</h1>
-                                <p>team</p>
-                                <h1>skills</h1>
+                                <h1 data-lang="skills-tagline-1">Our</h1>
+                                <p data-lang="skills-tagline-2">team</p>
+                                <h1 data-lang="skills-tagline-3">skills</h1>
                             </div>
                             <div class="skills__row row__1">
-                                <p>Graphic design</p>
+                                <p data-lang="skill-1">Graphic design</p>
                                 <p>80%</p>
                                 <div class="block-item">
                                     <span class="line"></span>
                                 </div>
                             </div>
                             <div class="skills__row row__2">
-                                <p>Lead generation</p>
+                                <p data-lang="skill-2">Lead generation</p>
                                 <p>41%</p>
                                 <div class="block-item">
                                     <span class="line"></span>
                                 </div>
                             </div>
                             <div class="skills__row  row__3">
-                                <p>Photoshop</p>
+                                <p data-lang="skill-3">Photoshop</p>
                                 <p>70%</p>
                                 <div class="block-item">
                                     <span class="line"></span>
                                 </div>
                             </div>
                             <div class="skills__row  row__4">
-                                <p>Illustration</p>
+                                <p data-lang="skill-4">Illustration</p>
                                 <p>100%</p>
                                 <div class="block-item">
                                     <span class="line"></span>
                                 </div>
                             </div>
-                            <p id="post__scriptum">* Over 8 years creating templates on Marketplace.</p>
+                            <p id="post__scriptum" data-lang="PS">* Over 8 years creating templates on Marketplace.</p>
                         </div>
                         <img src="images/jpg/our-team.jpg" alt="Roby team">
                     </section>
                     <section id="fun__facts">
                         <div id="fun__facts__header">
-                            <h1>Fun</h1>
-                            <p>facts</p>
+                            <h1 data-lang="ff-tagline-1">Fun</h1>
+                            <p data-lang="ff-tagline-2">facts</p>
                         </div>
                         <div id="fun__facts__container">
                             <div class="facts__block block__1">
                                 <img src="images/svg/medal.svg" alt="medal">
                                 <div class="facts__block__text">
                                     <p>8</p>
-                                    <p>Years on market</p>
+                                    <p data-lang="fact-1">Years on market</p>
                                 </div>
                             </div>
                             <div class="facts__block block__2">
                                 <img src="images/svg/brackets.svg" alt="brackets">
                                 <div class="facts__block__text">
                                     <p>110+</p>
-                                    <p>Project done</p>
+                                    <p data-lang="fact-2">Project done</p>
                                 </div>
                             </div>
                             <div class="facts__block block__3">
                                 <div class="facts__block__text">
                                     <p>15</p>
-                                    <p>Hero's member</p>
+                                    <p data-lang="fact-3">Hero's member</p>
                                 </div>
                             </div>
                             <div class="facts__block block__4">
                                 <img src="images/svg/mug.svg" alt="mug">
                                 <div class="facts__block__text">
                                     <p>100+</p>
-                                    <p>Cups of coffee</p>
+                                    <p data-lang="fact-4">Cups of coffee</p>
                                 </div>
                             </div>
                         </div>
@@ -283,39 +310,42 @@
                 </article>
                 <article id="blog">
                     <header id="blog__header">
-                        <h1>Our <span>blog</span></h1>
-                        <div class="circled__button">View all<br> post</div>
+                        <div class="blog__tagline">
+                            <h1 data-lang="blog-tagline">Our</h1>
+                            <span data-lang="blog-tagline-1">blog</span>
+                        </div>
+                        <div class="circled__button" data-lang="blog-btn">View all<br> post</div>
                     </header>
                     <div class="slider__blog">
                         <figure class="blog__post post__1">
                             <img src="images/jpg/blog-image-1.jpg" alt="moodboard">
-                            <div class="topic">Marketing</div>
-                            <p>Curating a workplace that inspires all of us</p>
-                            <p>February 3, 2021</p>
+                            <div class="topic" data-lang="post-1-topic">Marketing</div>
+                            <p data-lang="post-1-header">Curating a workplace that inspires all of us</p>
+                            <p data-lang="post-1-date">February 3, 2021</p>
                         </figure>
                         <figure class="blog__post post__2">
                             <img src="images/jpg/blog-image-2.jpg" alt="a flower in a cup reflected in a circular mirror">
-                            <div class="topic">Design</div>
-                            <p>Designers who changed the web with webflow</p>
-                            <p>February 25, 2021</p>
+                            <div class="topic" data-lang="post-2-topic">Design</div>
+                            <p data-lang="post-2-header">Designers who changed the web with webflow</p>
+                            <p data-lang="post-2-date">February 25, 2021</p>
                         </figure>
                         <figure class="blog__post post__3">
                             <img src="images/jpg/blog-image-3.jpg" alt="a beige room in minimalistic design ">
-                            <div class="topic">Code</div>
-                            <p>Communication between studio departments</p>
-                            <p>March 9, 2021</p>
+                            <div class="topic" data-lang="post-3-topic">Code</div>
+                            <p data-lang="post-3-header">Communication between studio departments</p>
+                            <p data-lang="post-3-date">March 9, 2021</p>
                         </figure>
                     </div>
                 </article>
                 <section id="lets__talk">   
                     <div id="lets__talk__header__wrapper">
                         <div id="lets__talk__header">
-                            <h1>Let's</h1>
-                            <p>talk</p>
+                            <h1 data-lang="talk-tagline-1">Let's</h1>
+                            <p data-lang="talk-tagline-2">talk</p>
                         </div>
-                        <p id="contact__us">Feel free to contact us</p>
+                        <p id="contact__us" data-lang="talk-proposal">Feel free to contact us</p>
                     </div>
-                    <div class="circled__button">View on designer</div>
+                    <div class="circled__button" data-lang="talk-btn">View on designer</div>
                 </section>
             </div>
         </main>
@@ -324,39 +354,42 @@
                 <div id="footer__header">
                     <img src="images/svg/logo-small.svg" alt="small Roby logo">
                     <div id="images-links">
-                        <a href="#"><img src="images/svg/facebook-logo.svg" alt="Facebook logo"></a>
-                        <a href="#"><img src="images/svg/instagram-logo.svg" alt="Instagram logo"></a>
-                        <a href="#"><img src="images/svg/twitter-logo.svg" alt="Twitter logo"></a>
-                        <a href="#"><img src="images/svg/linkedin-logo.svg" alt="LinkedIn logo"></a>
-                        <a href="#"><img src="images/svg/browser-logo.svg" alt="Browser logo"></a>
+                        <a href="#"><img src="images/svg/facebook-logo.svg" alt="Facebook logo" class="social__media__link"></a>
+                        <a href="#"><img src="images/svg/instagram-logo.svg" alt="Instagram logo" class="social__media__link"></a>
+                        <a href="#"><img src="images/svg/twitter-logo.svg" alt="Twitter logo" class="social__media__link"></a>
+                        <a href="#"><img src="images/svg/linkedin-logo.svg" alt="LinkedIn logo" class="social__media__link"></a>
+                        <a href="#"><img src="images/svg/browser-logo.svg" alt="Browser logo" class="social__media__link"></a>
                     </div>
                 </div>
                 <div id="footer__main">
                     <div id="address" class="footer__column">
-                        <p>Address</p>
-                        <p>14 New South Head Rd, Triple Bay 3148 London, UK</p>
-                        <div id="button">Find on map</div>
+                        <p data-lang="address">Address</p>
+                        <p data-lang="address-1">14 New South Head Rd, Triple Bay 3148 London, UK</p>
+                        <div id="button" data-lang="address-btn">Find on map</div>
                     </div>
                     <div id="sitemap" class="footer__column">
                         <p>Sitemap</p>
                         <ul id="sitemap__list">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Style Guide</a></li>
-                            <li><a href="#">Image Licensing</a></li>
+                            <li><a href="#" data-lang="sitemap-1">Home</a></li>
+                            <li><a href="#" data-lang="sitemap-2">About</a></li>
+                            <li><a href="#" data-lang="sitemap-3">News</a></li>
+                            <li><a href="#" data-lang="sitemap-4">Pricing</a></li>
+                            <li><a href="#" data-lang="sitemap-5">Style Guide</a></li>
+                            <li><a href="#" data-lang="sitemap-6">Image Licensing</a></li>
                         </ul>
                     </div>
                     <div id="contact" class="footer__column">
-                        <p>Contact</p>
+                        <p data-lang="contactInfo">Contact</p>
                         <p>P: 3740 213 301</p>
                         <p>E: contact@robi.com</p>
                     </div>
                 </div>
-                <p>© This is a Deni Bozo template powered by Webflow</p>
+                <p data-lang="watermark">© This is a Deni Bozo template powered by Webflow</p>
             </div>
         </footer>
     </div>
+    <script src="js/lang.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/player.js"></script>
 </body>
 </html>

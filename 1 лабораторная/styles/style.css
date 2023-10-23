@@ -7,6 +7,29 @@ body {
     min-height: 100%;
     overflow: hidden;
 }
+.play__btn {
+    position: relative;
+    top: 230px;
+    left: 0px;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.theme {
+    display: flex;
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
 
 .header {
     /* position: fixed; */
@@ -41,9 +64,15 @@ body {
     font-size: 18px;
     z-index: 13;
 }
-#agency__header__information #e-mail {
+#e-mail {
     color: #000;
     margin-top: 6px;
+}
+.header__btn_active {
+    background-color: green;
+}
+.header__btn:hover {
+    background-color: lightgreen;
 }
 #menu__list {
     display: flex;
@@ -58,7 +87,7 @@ body {
     text-decoration: none;
 }
 .menu__link:hover {
-    font-size: 19px;
+    transform: scale(1.09);
     text-decoration: underline;
 }
 
@@ -123,6 +152,25 @@ body {
     text-transform: uppercase;
     color: #fff;
     border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.circled__button:hover {
+    transition: all 0.4s ease 0s;
+    background-color: #8F8F8F;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.circled__button:active {
+    transform: scale(0.9);
+}
+
+#button:hover {
+    transition: all 0.4s ease 0s;;
+    background-color: #8F8F8F;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#button:active {
+    transform: scale(0.9);
 }
 
 #partners {
@@ -132,12 +180,23 @@ body {
     text-transform: uppercase;
     line-height: 34px;
 }
+.partners__header {
+    display: flex;
+    justify-content: center;
+}
 #partners span {
+    margin: 0px 8px;
     font-size: 22px;
     letter-spacing: 1px;
     line-height: 32.4px;
 }
 #partners h1 {
+    font-size: 27px;
+    line-height: 32.4px;
+    margin-bottom: 46px;
+    font-weight: 400;
+}
+#partners p {
     font-size: 27px;
     line-height: 32.4px;
     margin-bottom: 46px;
@@ -154,10 +213,11 @@ body {
 #accomplishments h1 {
     line-height: 72px;
 }
-#accomplishments span {
+.accomplishments__header span {
     font-size: 54px;
     letter-spacing: 1px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 #container {
     display: flex;
@@ -208,7 +268,7 @@ body {
     margin-top: 20px;
     margin-bottom: 14.73px;
     width: 383px;
-    border: thin solid black;
+    border: thin solid #000;
 }
 
 #selected__work {
@@ -276,15 +336,30 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.IYB__header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70.44px;
+}
 #improve__your__brand h1{
     margin-top: 7px;
     max-width: 471px;
-    position: relative;
-    top: 70.44px;
     letter-spacing: 1px;
 }
-#improve__your__brand h1 span {
+#improve__your__brand .ptagline {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+} 
+#improve__your__brand span {
     font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
 }
 #improve__your__brand h2 {
     margin: 0px 0px 10px 0px;
@@ -586,16 +661,23 @@ body {
 #blog__header {
     margin-bottom: 50px;
     display: flex;
+    flex-shrink: unset;
     align-items: center;
     justify-content: space-between;
+}
+.blog__tagline {
+    display: flex;
+    align-items: center;
 }
 #blog .circled__button {
     margin-top: 11px;
 }
-#blog__header h1 span {
+#blog__header span {
+    margin-left: 10px;
     font-size: 57px;
     font-weight: 400;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 #blog .slick-slide{
     margin: 0px 20px;
@@ -652,6 +734,16 @@ body {
     margin-right: 120px;
     color: #000;
     background-color: #fff;
+    transition: all 0.2s;
+}
+#lets__talk .circled__button:hover {
+    transition: all 0.4s ease 0s;
+    transform: scale(1.09);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+    font-weight: 700;
+}
+#lets__talk .circled__button:active {
+    transform: scale(0.9);
 }
 #lets__talk__header {
     margin-left: 120px;
@@ -690,8 +782,17 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+#images-links {
+    display: flex;
+}
 #images-links a{
     margin: 0 13px;
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+.social__media__link:hover {
+    transform: scale(1.25);
 }
 #footer__main {
     margin-bottom: 26px;
@@ -714,6 +815,10 @@ body {
     margin-bottom: 5px;
     font-size: 18px;
     line-height: 23px;
+}
+#sitemap__list li:hover {
+    font-weight: 700;
+    text-decoration: underline;
 }
 #contact {
     font-size: 18px;
@@ -744,6 +849,8 @@ body {
     border-radius: 30px 30px 30px 30px;
     color: white;
     background-color: #000;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 #footer__wrapper p:last-child {
     font-size: 17px;

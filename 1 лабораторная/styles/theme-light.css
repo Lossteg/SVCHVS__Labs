@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+.theme {
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+#e-mail {
+    color: #000;
+}
+#menu__list li a {
+    color: #000;
+}
+.header__awards__list {
+    color: #000;
+}
+.line {
+    border: thin solid #000;
+}
+#improve__your__brand .ptagline {
+    color: #000;
+} 
+.slider .slick-dots li.slick-active button{
+    background-color: #222222;
+}
+.slider__blog .slick-dots li.slick-active button{
+    background-color: #222222;
+}
+.slider__blog .slick-dots li button {
+    background-color: #a7a7a7;
+}
+.slider .slick-dots li button {
+    background-color: #a7a7a7;
+}
+.footer__column p:first-child {
+    color: #000;
+}
+#sitemap__list li a{
+    color: #000;
+}
