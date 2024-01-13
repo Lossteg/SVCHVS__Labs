@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Front-End",
+    "description": "Welcome to Front-End Community, your go-to hub for all things related to web development's front-end technologies! Whether you're a seasoned developer or just starting your journey, join us to explore the latest trends, share insights, and collaborate with like-minded enthusiasts.",
+    "banner": "https://www.blog.omertex.com/wp-content/uploads/2019/11/UI-design-15_optimized.png"
+  },
+  {
+    "name": "Back-End",
+    "description": "Welcome to Back-End Community, where developers dive deep into the world behind the scenes of web applications. Whether you're a seasoned backend developer or just delving into the backend realm, our community is your go-to space for all things related to databases, APIs, and server-side scripting. Let's code the backbone of the web together!",
+    "banner": "https://www.blog.omertex.com/wp-content/uploads/2019/11/UI-design-21_optimized.png"
+  },
+  {
+    "name": "Full-Stack",
+    "description": "Welcome to Full-Stack Community, the community where developers unite to explore the dynamic realm of full-stack development. Whether you're a seasoned pro or just beginning your journey, our community is your space to discuss and learn about both front-end and back-end technologies. ",
+    "banner": "https://marvel-b1-cdn.bc0a.com/f00000000225793/blog-c7ff.kxcdn.com/blog/wp-content/uploads/2015/11/blog_dev-01-1.jpg"
+  },
+  {
+    "name": "Android",
+    "description": "Welcome to the Android Community! Dive into the vibrant community where Android enthusiasts come together to explore, discuss, and innovate. Whether you're a seasoned developer or just stepping into the world of Android app creation, join us to share insights, stay updated on the latest trends, and collaborate on building incredible mobile experiences. Let's shape the future of Android development together!",
+    "banner": "https://miro.medium.com/v2/resize:fit:900/0*wQzlDX89oSbPYbeT.png"
+  },
+  {
+    "name": "iOS",
+    "description": "Welcome to the iOS Community! This is your dedicated space for iOS enthusiasts to connect, learn, and collaborate. Whether you're a seasoned iOS developer or venturing into the exciting world of Apple app creation, join us to share knowledge, stay abreast of the latest trends, and work together to craft exceptional mobile experiences for iOS. Let's shape the future of iOS development collectively!",
+    "banner": "https://heaad.ru/wp-content/uploads/2021/11/18-1024x683.png"
+  },
+  {
+    "name": "Databases",
+    "description": "Welcome to Databases Developers Community, your central hub for all things database-related! Whether you're an experienced developer or just starting, join us to delve into the world of databases. Connect with fellow enthusiasts, share insights, and explore the latest trends in database management and design. From SQL to NoSQL, let's build, optimize, and innovate together in the Databases Developers Community!",
+    "banner": "https://www.computercareers.org/wp-content/uploads/BecomeADatabaseDeveloper.jpg"
+  },
+  {
+    "name": "QA",
+    "description": "Step into the world of Quality Assurance with our QA Community! Whether you're a seasoned tester or exploring the realm of software quality, join us to discuss testing methodologies, share best practices, and stay updated on the latest QA trends. Connect with fellow developers, enhance your testing skills, and contribute to the pursuit of software excellence in the QA Developers Community!",
+    "banner": "https://www.clipartkey.com/mpngs/m/197-1973710_quality-assurance-data-scale-none-illustration.png"
+  },
+  {
+    "name": "C#",
+    "description": "Welcome to the C# Community! Dive into the powerful world of C# programming with our community. Whether you're a seasoned coder or just embarking on your coding journey, join us to explore the language's versatility, share insights, and collaborate on innovative projects. ",
+    "banner": "https://teknotower.com/wp-content/uploads/2021/10/C-ornekler.jpg"
+  },
+  {
+    "name": "JavaScript",
+    "description": "Welcome to the JavaScript Coummunity — an inclusive hub for developers passionate about the language that powers the modern web. Whether you're a coding maestro or just getting started, dive into the world of JavaScript with us. Connect, collaborate, and stay ahead of the curve with the latest trends and innovations. ",
+    "banner": "https://habrastorage.org/getpro/habr/upload_files/727/f54/666/727f54666075840f2c6a6d521f39e8f1.jpeg"
+  },
+  {
+    "name": "MongoDB",
+    "description": "Welcome to the MongoDB Community! Explore the dynamic realm of MongoDB with our community of developers. Whether you're a database expert or diving into NoSQL for the first time, join us to discuss, share insights, and stay updated on the latest MongoDB trends. Connect with fellow enthusiasts, optimize your database skills, and embark on a journey of innovation in the MongoDB Developers Community!",
+    "banner": "https://datafloq.com/wp-content/uploads/2021/12/blog_pictures2FMongoDB-Acquires-mLab-What-Are-The-Different-MongoDB-Hosting-Alternatives.png"
+  }
+]
