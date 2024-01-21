@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Calendars",
+    "properties": {
+        "color": [
+            "green",
+            "blue",
+            "red"
+        ],
+        "paperType" : [
+            "offset",
+            "coated",
+            "cardboard"
+        ],
+        "size": [
+            "big",
+            "medium",
+            "small"
+        ]
+    },
+    "price": {
+        "paperType": { "offset": 10, "coated": 14, "cardboard": 7 },
+        "size": { "big": 20, "medium": 13, "small": 7 }
+    },
+    "imageURL": "./Calendars.png"
+  },
+  {
+    "name": "Notebooks",
+    "properties": {
+        "color": [
+            "green",
+            "blue",
+            "red"
+        ],
+        "ruling" : [
+            "plaid",
+            "lined",
+            "none"
+        ],
+        "pages": [
+            12,
+            24,
+            48
+        ]
+    },
+    "price": {
+        "pages": { "12": 3, "24": 5, "48": 9 }
+    },
+    "imageURL": "./Notebooks.jpg"
+  },
+  {
+    "name": "Envelopes",
+    "properties": {
+        "color": [
+            "white",
+            "blue",
+            "black"
+        ],
+        "print": [
+            "forest",
+            "sea",
+            "sun",
+            "stars"
+        ],
+        "size": [
+            "big",
+            "medium",
+            "small"
+        ]
+    },
+    "price": {
+        "size": { "big": 10, "medium": 6, "small": 3 }
+    },
+    "imageURL": "./Envelopes.jpg"
+  }
+]
