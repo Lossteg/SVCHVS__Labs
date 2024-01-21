@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploaded HTML</title>
+</head>
+
+<body>
+    <h1 style="color: rgb(209, 56, 82); border: 5px solid yellow;">Я - HTML, который загрузили с бэка</h1>
+    <div>
+        <h2>Нажмите кнопки GET/POST для получения JSON</h2>
+        <h3 class="get-me" style="color: red;"></h3>
+        <h3 class="post-me" style="color: green; text-decoration: overline;"></h3>
+        <button type="button" onclick="getText()">
+            GET
+        </button>
+        <button type="button" onclick="postText()">
+            POST
+        </button>
+    </div>
+    <div>
+        <h2>Нажмите кнопку для отправки данных на бэк через POST-сервис</h2>
+        <h3 class="post-back" style="color: blue;">Вместо меня будет ответ с бэка</h3>
+        <button type="button" onclick="sendText()">
+            SEND
+        </button>
+    </div>
+    <div>
+        <h2>Выберите формат файла для скачивания:</h2>
+        <h3 class="download-result" style="color: darkolivegreen;">Здесь будет результат скачивания</h3>
+        <button type="button" onclick="download('html')">
+            HTML
+        </button>
+        <button type="button" onclick="download('xml')">
+            XML
+        </button>
+        <button type="button" onclick="download('json')">
+            JSON
+        </button>
+    </div>
+    <script>
+        function getText() {
+            fetch('/get')
+                .then(response => response.json())
+                .then(data => {
+                    document.querySelector('.get-me').textContent = data.text;
+                });
+        }
+
+        function postText() {
+            fetch('/post', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    document.querySelector('.post-me').textContent = data.text;
+                });
+        }
+
+        function sendText() {
+            const text = { message: 'Привет! Меня отправили с фронта!' };
+
+            fetch('postData', { method: 'POST', headers: { 'Content-Type': 'application/json', }, body: JSON.stringify(text) })
+                .then(response => response.json())
+                .then(MyBackMessage => {
+                    document.querySelector('.post-back').textContent = MyBackMessage.message;
+                })
+        }
+
+        function download(format) {
+            fetch('/file', {
+                method: 'GET',
+                headers: {
+                    'Accept': `application/${format}`,
+                },
+            })
+                .then(response => response.text())
+                .then(file => {
+                    document.querySelector('.download-result').textContent = file;
+                })
+                .catch(error => {
+                    console.error('Error during download:', error);
+                });
+        }
+    </script>
+</body>
+
+</html>
