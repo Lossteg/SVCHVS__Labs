@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Footer component matches snapshot 1`] = `
+<div
+  className="MuiBox-root css-hp56ml"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+  >
+    <img
+      alt="Copy-center-logo"
+      className="logo-footer"
+      src="CopyCenterLogo.png"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 css-1ld3b9g-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+      >
+        <a
+          className="router-link footer-link"
+          href="/about-us"
+          onClick={[Function]}
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+          >
+            About us
+          </p>
+        </a>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+      >
+        <a
+          className="router-link footer-link"
+          href="/FAQ"
+          onClick={[Function]}
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+          >
+            FAQ
+          </p>
+        </a>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+      >
+        <a
+          className="router-link footer-link"
+          href="/contacts"
+          onClick={[Function]}
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+          >
+            Contact us
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

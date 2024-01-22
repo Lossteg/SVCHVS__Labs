@@ -72,6 +72,7 @@ function Header() {
             <Tooltip title="My Orders" placement="left">
               <IconButton sx={{ p: 0, backgroundColor: "white" }} onClick={handleAvatarClick}>
                 <Avatar
+                  className='user-avatar'
                   alt="User-avatar"
                   src={UserAvatar}
                   sx={{

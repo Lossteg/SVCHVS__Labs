@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from "axios";
 import { handleApiError } from './utils';
 
 const USER_URL = '/data/users.json';

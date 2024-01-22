@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ component FAQ component matches snapshot 1`] = `
+Array [
+  <div
+    className="background"
+  />,
+  <header
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-11b3ww9-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthXl css-gk3fd8-MuiContainer-root"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular css-u2rs4q-MuiToolbar-root"
+      >
+        <img
+          alt="Copy-center-logo"
+          className="logo-header"
+          onClick={[Function]}
+          src="CopyCenterLogo.png"
+        />
+        <div
+          className="MuiBox-root css-1fv2ldg"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 welcome-user css-ofhtmv-MuiTypography-root"
+          >
+            Welcome, 
+            !
+          </p>
+          <button
+            aria-label="My Orders"
+            aria-labelledby={null}
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-8zl1b1-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element={true}
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <div
+              className="MuiAvatar-root MuiAvatar-circular user-avatar css-1mlqxu5-MuiAvatar-root"
+            >
+              <img
+                alt="User-avatar"
+                className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                src="UserAvatar.png"
+              />
+            </div>
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>,
+  <div
+    className="main"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthMd css-xdmu94-MuiContainer-root"
+      style={
+        Object {
+          "marginBottom": "2rem",
+          "marginTop": "2rem",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-18unx4h-MuiTypography-root"
+      >
+        Frequently Asked Questions
+      </h4>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1c35hjw-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel1a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel1a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+            >
+              What printing services do you offer?
+            </h6>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel1a-header"
+                className="MuiAccordion-region"
+                id="panel1a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <p
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                  >
+                    We offer a wide range of printing services, including business cards, banners, brochures, flyers, and more. Feel free to explore our website for a complete list of services.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1c35hjw-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel2a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel2a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+            >
+              How can I place an order?
+            </h6>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel2a-header"
+                className="MuiAccordion-region"
+                id="panel2a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <p
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                  >
+                    You can place an order by visiting our online store and selecting the desired products. Follow the easy checkout process to complete your order. For custom orders or inquiries, you can contact our customer support team.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1c35hjw-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel3a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel3a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+            >
+              What file formats do you accept for printing?
+            </h6>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel3a-header"
+                className="MuiAccordion-region"
+                id="panel3a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <p
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                  >
+                    We accept a variety of file formats, including PDF, JPEG, PNG, and more. Make sure your files meet our printing requirements for the best results. Check our guidelines or contact our support team for assistance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1c35hjw-MuiPaper-root-MuiAccordion-root"
+      >
+        <div
+          aria-controls="panel4a-content"
+          aria-expanded={false}
+          className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="panel4a-header"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+            >
+              Can I get a quote for my printing project?
+            </h6>
+          </div>
+          <div
+            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ExpandMoreIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style={
+            Object {
+              "minHeight": "0px",
+            }
+          }
+        >
+          <div
+            className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="panel4a-header"
+                className="MuiAccordion-region"
+                id="panel4a-content"
+                role="region"
+              >
+                <div
+                  className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                >
+                  <p
+                    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                  >
+                    Yes, you can request a quote for your printing project. Navigate to our "Get a Quote" page and provide the necessary details. Our team will get back to you with a personalized quote.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiBox-root css-hp56ml"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+        }
+      }
+    >
+      <img
+        alt="Copy-center-logo"
+        className="logo-footer"
+        src="CopyCenterLogo.png"
+      />
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 css-1ld3b9g-MuiGrid-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+        >
+          <a
+            className="router-link footer-link"
+            href="/about-us"
+            onClick={[Function]}
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              About us
+            </p>
+          </a>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+        >
+          <a
+            className="router-link footer-link"
+            href="/FAQ"
+            onClick={[Function]}
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              FAQ
+            </p>
+          </a>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+        >
+          <a
+            className="router-link footer-link"
+            href="/contacts"
+            onClick={[Function]}
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              Contact us
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

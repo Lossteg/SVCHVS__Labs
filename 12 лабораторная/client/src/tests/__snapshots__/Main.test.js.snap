@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="background"
+    />
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-11b3ww9-MuiPaper-root-MuiAppBar-root"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthXl css-gk3fd8-MuiContainer-root"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular css-u2rs4q-MuiToolbar-root"
+        >
+          <img
+            alt="Copy-center-logo"
+            class="logo-header"
+            src="CopyCenterLogo.png"
+          />
+          <div
+            class="MuiBox-root css-1fv2ldg"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 welcome-user css-ofhtmv-MuiTypography-root"
+            >
+              Welcome, !
+            </p>
+            <button
+              aria-label="My Orders"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-8zl1b1-MuiButtonBase-root-MuiIconButton-root"
+              data-mui-internal-clone-element="true"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular user-avatar css-1mlqxu5-MuiAvatar-root"
+              >
+                <img
+                  alt="User-avatar"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="UserAvatar.png"
+                />
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="main"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h1 css-sqoje6-MuiTypography-root"
+        style="margin-bottom: 10px; color: black; font-size: 3.7rem; font-weight: 400;"
+      >
+        Our services
+      </h1>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        style="justify-content: center;"
+      >
+        <p>
+          No services available
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-hp56ml"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+        style="display: flex; align-items: center;"
+      >
+        <img
+          alt="Copy-center-logo"
+          class="logo-footer"
+          src="CopyCenterLogo.png"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 css-1ld3b9g-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+          >
+            <a
+              class="router-link footer-link"
+              href="/about-us"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                About us
+              </p>
+            </a>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+          >
+            <a
+              class="router-link footer-link"
+              href="/FAQ"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                FAQ
+              </p>
+            </a>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+          >
+            <a
+              class="router-link footer-link"
+              href="/contacts"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Contact us
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
