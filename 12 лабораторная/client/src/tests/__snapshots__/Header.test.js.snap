@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Header component matches snapshot 1`] = `
+<header
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-11b3ww9-MuiPaper-root-MuiAppBar-root"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthXl css-gk3fd8-MuiContainer-root"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular css-u2rs4q-MuiToolbar-root"
+    >
+      <img
+        alt="Copy-center-logo"
+        className="logo-header"
+        onClick={[Function]}
+        src="CopyCenterLogo.png"
+      />
+      <div
+        className="MuiBox-root css-1fv2ldg"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 welcome-user css-ofhtmv-MuiTypography-root"
+        >
+          Welcome, 
+          !
+        </p>
+        <button
+          aria-label="My Orders"
+          aria-labelledby={null}
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-8zl1b1-MuiButtonBase-root-MuiIconButton-root"
+          data-mui-internal-clone-element={true}
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <div
+            className="MuiAvatar-root MuiAvatar-circular user-avatar css-1mlqxu5-MuiAvatar-root"
+          >
+            <img
+              alt="User-avatar"
+              className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+              src="UserAvatar.png"
+            />
+          </div>
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+`;

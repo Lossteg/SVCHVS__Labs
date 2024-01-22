@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs component FAQ component matches snapshot 1`] = `
+Array [
+  <div
+    className="background"
+  />,
+  <header
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-11b3ww9-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthXl css-gk3fd8-MuiContainer-root"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular css-u2rs4q-MuiToolbar-root"
+      >
+        <img
+          alt="Copy-center-logo"
+          className="logo-header"
+          onClick={[Function]}
+          src="CopyCenterLogo.png"
+        />
+        <div
+          className="MuiBox-root css-1fv2ldg"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 welcome-user css-ofhtmv-MuiTypography-root"
+          >
+            Welcome, 
+            !
+          </p>
+          <button
+            aria-label="My Orders"
+            aria-labelledby={null}
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-8zl1b1-MuiButtonBase-root-MuiIconButton-root"
+            data-mui-internal-clone-element={true}
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <div
+              className="MuiAvatar-root MuiAvatar-circular user-avatar css-1mlqxu5-MuiAvatar-root"
+            >
+              <img
+                alt="User-avatar"
+                className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                src="UserAvatar.png"
+              />
+            </div>
+            <span
+              className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>,
+  <div
+    className="main"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      style={
+        Object {
+          "marginBottom": "2rem",
+          "marginTop": "2rem",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "column",
+                "maxWidth": "fit-content",
+                "padding": "2vh",
+              }
+            }
+          >
+            <img
+              alt="Copy-center-logo"
+              className="logo-about-us"
+              src="CopyCenterLogo.png"
+            />
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-3su884-MuiPaper-root"
+          >
+            <div
+              className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <h4
+                className="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-1vw6mcs-MuiTypography-root"
+              >
+                About Us
+              </h4>
+              <p
+                className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Welcome to CMYK, your reliable partner for high-quality printing solutions. At CMYK, we strive for excellence in every project, ensuring that your printed materials make a lasting impression.
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                style={
+                  Object {
+                    "marginTop": 16,
+                  }
+                }
+              >
+                Our team of dedicated professionals is committed to delivering top-notch printing services tailored to meet your specific needs. Whether you need eye-catching business cards, vibrant banners, or sophisticated brochures, we've got you covered.
+              </p>
+              <p
+                className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                style={
+                  Object {
+                    "marginTop": 16,
+                  }
+                }
+              >
+                Explore our website to discover the wide range of printing services we offer. Feel free to contact us with any inquiries or to discuss your upcoming projects. We look forward to helping you bring your ideas to life through the power of print.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiBox-root css-hp56ml"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+        }
+      }
+    >
+      <img
+        alt="Copy-center-logo"
+        className="logo-footer"
+        src="CopyCenterLogo.png"
+      />
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 css-1ld3b9g-MuiGrid-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+        >
+          <a
+            className="router-link footer-link"
+            href="/about-us"
+            onClick={[Function]}
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              About us
+            </p>
+          </a>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+        >
+          <a
+            className="router-link footer-link"
+            href="/FAQ"
+            onClick={[Function]}
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              FAQ
+            </p>
+          </a>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-wg4xta-MuiGrid-root"
+        >
+          <a
+            className="router-link footer-link"
+            href="/contacts"
+            onClick={[Function]}
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            >
+              Contact us
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

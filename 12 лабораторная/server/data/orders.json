@@ -1,0 +1,52 @@
+[
+  {
+    "service": "Envelopes",
+    "properties": {
+      "color": "white",
+      "print": "sea",
+      "size": "big"
+    },
+    "quantity": 5,
+    "totalPrice": 50
+  },
+  {
+    "service": "Calendars",
+    "properties": {
+      "color": "blue",
+      "paperType": "coated",
+      "size": "medium"
+    },
+    "quantity": 1,
+    "totalPrice": 27
+  },
+  {
+    "service": "Envelopes",
+    "properties": {
+      "color": "blue",
+      "print": "forest",
+      "size": "medium"
+    },
+    "quantity": 1,
+    "totalPrice": 6
+  },
+  {
+    "service": "Notebooks",
+    "properties": {
+      "color": "blue",
+      "ruling": "plaid",
+      "pages": 48
+    },
+    "quantity": 4,
+    "totalPrice": 36
+  },
+  {
+    "service": "Calendars",
+    "properties": {
+      "color": "green",
+      "paperType": "cardboard",
+      "size": "big"
+    },
+    "quantity": 2,
+    "totalPrice": 54
+  }
+]
